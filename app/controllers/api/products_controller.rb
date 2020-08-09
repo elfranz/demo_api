@@ -2,7 +2,7 @@ module Api
   class ProductsController < ApplicationController
     # TODO: add pagination to improve performance
     def index
-      products = Product.all
+      products = Product.all.order(:id)
       render status: :ok, json: products
     end
 
