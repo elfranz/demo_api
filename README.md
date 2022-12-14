@@ -5,6 +5,8 @@ POSTMAN DOCS AND COLLECTION: https://documenter.getpostman.com/view/11207309/Szf
 
 1 - Install Rbenv. https://github.com/rbenv/rbenv. Ruby version -> 2.7.0p0
 
+   You might need to upgrade your ruby-build. There are some problems when trying to install older versions of ruby on newer versions of Ubuntu, I ran into this when trying to install ruby 2.7.0 on ubuntu 22.04. https://github.com/rbenv/ruby-build
+
 2 - Install postgres. Then run the following commands to set up the postgres server on your machine:<br />
   sudo su<br />
   su - postgres<br />
